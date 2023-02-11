@@ -1,3 +1,37 @@
 body {
     padding-top: 5rem;
 }
+
+.container {
+    text-align: center;
+    border-style:ridge;
+    
+}
+
+img{
+    padding: 20px;
+    max-width: 250px; 
+    max-height: 250px;
+    border-radius: 50%;
+}
+
+#upper  {
+    background-color: green;
+}
+
+#upper h1, #upper p {
+    color: white;
+}
+.grid-container {
+    display: grid;
+
+}
+#lower #values ul  {
+    display: grid;
+    column-gap: 10px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}

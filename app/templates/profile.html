@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div id="upper">
+    <img src="{{ url_for('static', filename='img/cat.jpg') }}" />
+    <h1>{{ name }}</h1>
+    <p>@{{name.split()[0][0].lower()}}{{ name.split()[1].lower() }}</p>
+    <p>Kingston, Jamaica</p>
+    <p>Joined {{ date_joined }}, {{ year_joined }} </p>
+</div>
+<div id="lower">
+    <P>I am smart and talented young man who loves website design and development. Contact me if you'd like to work together on a new project.</p>
+        <div class="grid-container">
+            <div class="grid-item">{{posts}}</div>
+            <div class="grid-item">{{following}}</div>
+            <div class="grid-item">{{followers}}</div>
+            <div class="grid-item">Posts</div>
+            <div class="grid-item">Following</div>
+            <div class="grid-item">Followers</div>
+          </div>
+
+    
+    <button id="follow" type="button">Follow</button>
+</div>
+
+
+{% endblock %}
