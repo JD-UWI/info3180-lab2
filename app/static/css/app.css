@@ -2,17 +2,19 @@ body {
     padding-top: 5rem;
 }
 
-.container {
+.container .profile {
     text-align: center;
     border-style:ridge;
+    margin: 1%;
     
 }
 
-img{
-    padding: 20px;
-    max-width: 250px; 
-    max-height: 250px;
+#user-profile{
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
+    margin: 20px;
+    padding: 3px;
 }
 
 #upper  {
@@ -22,16 +24,29 @@ img{
 #upper h1, #upper p {
     color: white;
 }
+
 .grid-container {
     display: grid;
-
-}
-#lower #values ul  {
-    display: grid;
-    column-gap: 10px;
-}
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px;
+    column-gap: 5px;
+    padding: 5px;
+  }
 
 li {
     list-style: none;
     display: inline;
 }
+#follow {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+  }
