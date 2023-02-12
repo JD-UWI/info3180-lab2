@@ -3,10 +3,12 @@ body {
 }
 
 .container .profile {
+    width: 500px;
     text-align: center;
     border-style:ridge;
-    margin: 1%;
-    
+    border-radius: 10px;
+    margin: auto;
+
 }
 
 #user-profile{
@@ -35,12 +37,27 @@ body {
     grid-gap: 1px;
     column-gap: 5px;
     padding: 5px;
-  }
+}
 
 li {
     list-style: none;
     display: inline;
 }
+#intro  {
+    margin: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: grey;
+}
+#posts, #following, #followers {
+    color: black;
+    font-weight: bold;
+}
+.grid-item:nth-child(4), .grid-item:nth-child(5), .grid-item:nth-child(6) {
+    color: grey;
+}
+  
+  
 #follow {
     background-color: #80e604; /* Green */
     border: none;
