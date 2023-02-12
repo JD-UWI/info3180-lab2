@@ -10,19 +10,17 @@
         <p>Joined {{ date_joined }}, {{ year_joined }} </p>
     </div>
     <div id="lower">
-        <P>I am smart and talented young man who loves website design and development. Contact me if you'd like to work together on a new project.</p>
-            <div class="grid-container">
-                <div class="grid-item">{{posts}}</div>
-                <div class="grid-item">{{following}}</div>
-                <div class="grid-item">{{followers}}</div>
-                <div class="grid-item">Posts</div>
-                <div class="grid-item">Following</div>
-                <div class="grid-item">Followers</div>
-              </div>
-    
-        
+        <p>I am smart and talented young man who loves website design and development. Contact me if you'd like to work together on a new project.</p>
+        <div class="grid-container">
+          <div class="grid-item" id="posts">{{posts}}</div>
+          <div class="grid-item" id="following">{{following}}</div>
+          <div class="grid-item" id="followers">{{followers}}</div>
+          <div class="grid-item">Posts</div>
+          <div class="grid-item">Following</div>
+          <div class="grid-item">Followers</div>
+        </div>
         <button id="follow" type="button">Follow</button>
-    </div>
+      </div>     
 </div>
 
 

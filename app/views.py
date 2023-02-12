@@ -21,8 +21,11 @@ def about():
 @app.route('/profile')
 def profile():
     """Render the website's profile."""
+    posts=7
+    following=100
+    followers=250
     return render_template('profile.html', name="Jordan Dwyer", date_joined= datetime.now().strftime("%B"), year_joined=datetime.now().year,
-    posts=7,following=100,followers=250)
+    posts=posts,following=following,followers=followers)
 
 
 

@@ -18,7 +18,11 @@ body {
 }
 
 #upper  {
-    background-color: green;
+    background-color: rgb(41, 105, 41);
+    background: linear-gradient(to right, rgb(28, 178, 28), rgb(9, 156, 9));
+    margin-bottom: 1px;
+    padding-bottom: 5px;
+
 }
 
 #upper h1, #upper p {
@@ -38,7 +42,7 @@ li {
     display: inline;
 }
 #follow {
-    background-color: #4CAF50; /* Green */
+    background-color: #80e604; /* Green */
     border: none;
     border-radius: 8px;
     color: white;
